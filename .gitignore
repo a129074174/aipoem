@@ -1,0 +1,43 @@
+# 环境变量与密钥（绝不入库）
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.jks
+
+# Python
+server/.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# 出图临时产物
+server/output/
+output/
+
+# Flutter / Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# 字体（版权文件不入库，见 assets/fonts/README.md）
+assets/fonts/*.ttf
+assets/fonts/*.otf
+assets/fonts/*.ttc
+assets/fonts/*.woff2
+
+# 编辑器与系统
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
